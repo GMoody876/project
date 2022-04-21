@@ -1,0 +1,24 @@
+@media only screen and (max-width: 990px) {
+    .filter{
+        display: none;
+    }
+    .topnav{
+        max-width: 80%;
+    }
+    #left{
+        display: none;
+    }
+    .sidebar{
+        z-index: 9999;
+    }
+    #flex-c{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media only screen and (max-width: 560px) {
+      #flex-c{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+  }
